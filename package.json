@@ -1,0 +1,21 @@
+{
+  "name": "protractor-cucumber-phantom",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node server",
+    "bower": "bower install",
+    "phantom": "./node_modules/.bin/phantomjs --webdriver=4444",
+    "test": "./node_modules/.bin/protractor config.js"
+  },
+  "dependencies": {
+    "json-server": "^0.6.0"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "cucumber": "^0.4.0",
+    "phantomjs": "^2.1.1",
+    "protractor": "^1.6.0"
+  }
+}
